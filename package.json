@@ -5,6 +5,9 @@
   "main": "main.js",
   "author": "Lego",
   "license": "UNLICENSED",
+  "scripts" : {
+      "start" : "echo \"Kappa"
+  },
   "eslintConfig": {
     "env": {
       "node": true
