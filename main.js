@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-app.set('port', (process.env.PORT);
+app.set('port', process.env.PORT);
 const Discord = require("discord.js");
 const Client = { 
       bot : new Discord.Client(),
