@@ -1,1 +1,1 @@
-queue: node main.js -p $PORT
+queue: node main.js
