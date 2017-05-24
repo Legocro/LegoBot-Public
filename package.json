@@ -22,7 +22,6 @@
     "superagent": "^3.5.2"
   },
   "engines": {
-    "npm" : "v3.10.10",
     "node": "v7.7.4"
   },
   "devDependencies": {
