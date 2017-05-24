@@ -1,6 +1,6 @@
 {
   "name": "LegoBot",
-  "version": "v1.0",
+  "version": "v1.0.0",
   "description": "A bot, that does things.",
   "main": "main.js",
   "author": "Lego",
