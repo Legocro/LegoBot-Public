@@ -5,6 +5,12 @@
   "main": "main.js",
   "author": "Lego",
   "license": "UNLICENSED",
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  },
+
   "dependencies": {
     "discord.js": "^11.1.0",
     "moment": "^2.18.1",
@@ -13,6 +19,7 @@
     "superagent": "^3.5.2"
   },
   "engines": {
+    "npm" : "v3.10.10",
     "node": "v7.7.4"
   },
   "devDependencies": {
