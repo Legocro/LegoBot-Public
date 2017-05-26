@@ -1,1 +1,1 @@
-web: node main.js
+queue: node main.js
