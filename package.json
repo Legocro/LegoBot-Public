@@ -8,12 +8,6 @@
   "scripts" : {
       "start" : "node main.js"
   },
-  "eslintConfig": {
-    "env": {
-      "node": true
-    }
-  },
-
   "dependencies": {
     "discord.js": "^11.1.0",
     "moment": "^2.18.1",
