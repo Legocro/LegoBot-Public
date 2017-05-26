@@ -1,1 +1,1 @@
-queue: node main.js
+bot: node main.js
