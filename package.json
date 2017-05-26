@@ -22,9 +22,6 @@
     "superagent": "^3.5.2",
     "express" : "4.15.3"
   },
-  "engines": {
-    "node": "v7.7.4"
-  },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint-config-airbnb": "^14.1.0",
