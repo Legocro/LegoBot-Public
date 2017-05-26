@@ -1,1 +1,1 @@
-web: node main.js -p $PORT
+web: node main.js
