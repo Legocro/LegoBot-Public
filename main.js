@@ -29,16 +29,16 @@ Client.bot.on("message", (m) => {
 	if (m.author.bot) return;
 	let args = m.content.slice(Client.settings.prefix.length).split(" ");
 	if (args[0] in Client.commands){
-		if(Client.commands[args[0]].config.permlevel > Client.permlevel(m)) return m.channel.send(`You don't have permission to run command ˙${args[0]}.`);
+		if(Client.commands[args[0]].config.permlevel > Client.permlevel(m)) return m.channel.send(`You don't have permission to run command \`${args[0]}\`.`);
 		Client.commands[args[0]].cmd(Client , m , args.slice(1));
 	} else {
-		m.channel.send(`Couldn't find command ${args[0]}.`);
+		m.channel.send(`Couldn't find command \`${args[0]}\`.`);
 	}
 })
 
 
-
 Client.bot.on('error', (e) => console.error(e));
 Client.bot.on('warn', (e) => console.warn(e));
+
 //Client.bot.on('debug', (e) => console.info(e));
 Client.bot.login(Client.settings.token);
