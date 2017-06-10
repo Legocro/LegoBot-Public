@@ -3,5 +3,5 @@ exports.cmd = (Client , m , args) => {
 }
 
 exports.config = {
-	permlevel : 2
+	permlevel : 0
 }
