@@ -5,7 +5,7 @@ const Client = {
       settings : require("./settings.json")}
 Client.permlevel = message => {
 	if (message.author.id == Client.settings.owner) return 2;
-	if (message.member.has(message.guild.find("name",Client.settings.modrole))) return 1;
+	//if (message.member.has(message.guild.find("name",Client.settings.modrole))) return 1;
 	return 0;
 }
 
