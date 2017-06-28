@@ -1,2 +1,2 @@
 # LegoBot
-Discord Bot
+Discord Bot, made by Lego
