@@ -11,10 +11,10 @@ convert = function(d1 , d2 , num ) {
 let table = {
 	C2F : x => {return x * 1.8 + 32},
 	F2C : x => {return (x - 32) * 5/9},
-	K2C : x => {return x + 273},
-	C2K : x => {return x - 273},
-	K2F : x => {return this.c2f(x+273)},
-	F2K : x => {return this.f2c(x) - 273}
+	K2C : x => {return x - 273},
+	C2K : x => {return x + 273},
+	K2F : x => {return this.c2f(x-273)},
+	F2K : x => {return this.f2c(x) + 273}
 }
 
 exports.cmd = (Client , m , args) => {
