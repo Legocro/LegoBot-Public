@@ -5,7 +5,7 @@ convert = function(d1 , d2 , num ) {
 	if (!typeof num == "number") return "Degrees must be a number.";
 	d1 = d1.toUpperCase();
 	d2 = d2.toUpperCase();
-	return table[`${d1}2${d2}`](num); 
+	return Number(table[`${d1}2${d2}`](num)); 
 }
 
 let table = {
@@ -20,7 +20,7 @@ let table = {
 exports.cmd = (Client , m , args) => {
 	try{
 	let usage = "Proper usage is \`m~degrees <degrees> <unit_1> in <unit_2>";
-	if (args.length < 4 || typeof convert(args[1] , args[3] , args[0]) == "string") return m.channel.send(usage || usage + "\n" + convert(args[1] , args[3] , args[0]));
+	if (args.length < 4 || typeof convert(args[1] , args[3] , args[0]) != "number") return m.channel.send(usage || usage + "\n" + convert(args[1] , args[3] , args[0]));
 	m.channel.send(`${args[0]}${args[1].toUpperCase()} is equal to ${convert(args[1] , args[3] , args[0]).toPrecision(4)}${args[3].toUpperCase()}`);
 }catch(e){
 	console.log(e.stack);
