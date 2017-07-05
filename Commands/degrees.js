@@ -1,4 +1,4 @@
-convert = function(d1 , d2 , num, ) {
+convert = function(d1 , d2 , num ) {
 	let poss = ["k" , "f" , "c"];
 	if (!poss.includes(d1.toLowerCase())) return "Possible units are C, F and K.";
 	if (!poss.includes(d2.toLowerCase())) return "Possible units are C, F and K.";
