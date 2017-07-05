@@ -5,6 +5,7 @@ convert = function(d1 , d2 , num ) {
 	if (!typeof num == "number") return "Degrees must be a number.";
 	d1 = d1.toUpperCase();
 	d2 = d2.toUpperCase();
+	num = Number(num);
 	return Number(table[`${d1}2${d2}`](num)); 
 }
 
