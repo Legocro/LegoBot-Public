@@ -20,7 +20,7 @@ let table = {
 
 exports.cmd = (Client , m , args) => {
 	try{
-	let usage = "Proper usage is \`m~degrees <degrees> <unit_1> in <unit_2>";
+	let usage = "Proper usage is \`m~degrees <degrees> <unit_1> in <unit_2>\`";
 	if (args.length < 4 || typeof convert(args[1] , args[3] , args[0]) != "number") return m.channel.send(usage || usage + "\n" + convert(args[1] , args[3] , args[0]));
 	m.channel.send(`${args[0]}${args[1].toUpperCase()} is equal to ${convert(args[1] , args[3] , args[0]).toPrecision(4)}${args[3].toUpperCase()}`);
 }catch(e){
