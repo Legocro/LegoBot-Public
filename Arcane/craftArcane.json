@@ -1,0 +1,237 @@
+{
+	"Greed Splinter": {
+		"effect": "Multiplies skull values by 10%. Stacks multiplicatively",
+		"recipe": ["Ectoplasm Prism", "Ectoplasm Prism", "Death Mason Jar"],
+		"time": "24h"
+	},
+	"War Splinter": {
+		"effect": "Multiplies your DPS by 10%. Stacks multiplicatively",
+		"recipe": ["Ectoplasm Prism", "Ectoplasm Prism", "Elixir of Madness"],
+		"time": "24h"
+	},
+	"War Shard": {
+		"effect": "Multiplies your DPS by 2. Stacks multiplicatively",
+		"recipe": ["War Splinter", "War Splinter", "War Splinter"],
+		"time": "1h"
+	},
+	"Greed Shard": {
+		"effect": "Multiplies skull values by 2. Stacks multiplicatively",
+		"recipe": ["Greed Splinter", "Greed Splinter", "Greed Splinter"],
+		"time": "1h"
+	},
+	"Mayhem Shard": {
+		"effect": "Multiplies your DPS by 6. Stacks multiplicatively",
+		"recipe": ["War Shard", "War Shard", "Ectoplasm Prism"],
+		"time": "2d"
+	},
+	"Fortune Shard": {
+		"effect": "Multiplies skull values by 6. Stacks multiplicatively",
+		"recipe": ["Greed Shard", "Greed Shard", "Ectoplasm  Prism"],
+		"time": "2d"
+	},
+	"Power Cube Piece": {
+		"effect": "Add 15% to total DPS per orb",
+		"recipe": ["Stone Tablet", "Stone Tablet", "Stone Tablet"],
+		"time": "1h"
+	},
+	"Power Cube": {
+		"effect": "Add 50% to total DPS per orb",
+		"recipe": ["Power Cube Piece", "Power Cube Piece", "Power Cube Piece"],
+		"time": "1h"
+	},
+	"Mega Cube": {
+		"effect": "Add 500% to total DPS per orb",
+		"recipe": ["Power Cube", "Power Cube", "Power Cube"],
+		"time": "24h"
+	},
+	"Pearl Necklace": {
+		"effect": "Add 5 seconds to skill duration",
+		"recipe": ["Power Cube", "Power Potion", "Magic Ring"],
+		"time": "1h"
+	},
+	"A Bad Seed": {
+		"effect": "Add 1/2/3 taps before bob wakes up",
+		"recipe": [],
+		"time": "1m"
+	},
+	"Death Mug": {
+		"effect": "Add 150% skull's value",
+		"recipe": ["Death Chalice", "Death Chalice", "Death Chalice"],
+		"time": "8h"
+	},
+	"Death Mason Jar": {
+		"effect": "Add 800% skull's value",
+		"recipe": ["Death Mug", "Death Mug", "Death Mug"],
+		"time": "24h"
+	},
+	"Piggy Bank of Doom": {
+		"effect": "50k starting skulls when using time portal",
+		"recipe": ["Red Knight's Lipstick", "Death Chalice", "Power Potion"],
+		"time": "1h"
+	},
+	"Spectral Scimitar": {
+		"effect": "Add 50% to skull values dropped from villagers",
+		"recipe": ["Necro Sword", "Necro Sword", "Ectoplasm"],
+		"time": "1h"
+	},
+	"Chaos Crest": {
+		"effect": "Add 1 to white orb drop",
+		"recipe": ["Zombie Horde's Eye", "Power Potion", "Magic Ring"],
+		"time": "1h"
+	},
+	"Chaos Gem": {
+		"effect": "Add 1 white orbs to all bosses",
+		"recipe": ["Chaos Crest", "Ectoplasm Cube", "Magic Ring"],
+		"time": "1h"
+	},
+	"Mega Ring": {
+		"effect": "Add 50 seconds to boss battle",
+		"recipe": ["Magic Ring", "Magic Ring", "Magic Ring"],
+		"time": "24h"
+	},
+	"Ultima Potion": {
+		"effect": "Add 500% to all DPS when Bob sleeps",
+		"recipe": ["Power Potion", "Power Potion", "Power Potion"],
+		"time": "8h"
+	},
+	"Elixir of Madness": {
+		"effect": "Add 5000% to all DPS when Bob sleeps",
+		"recipe": ["Ultima Potion", "Ultima Potion", "Ultima Potion"],
+		"time": "24h"
+	},
+	"Teeth of Doom": {
+		"effect": "Add 50% to skull value when Bob sleeps",
+		"recipe": ["Power Potion", "Power Potion", "Ectoplasm Ball"],
+		"time": "1h"
+	},
+	"Magic Axe": {
+		"effect": "Add 300% to non-tap monsters",
+		"recipe": ["Ectoplasm Ball", "Power Axe", "Power Axe"],
+		"time": "24h"
+	},
+	"Spectre Axe": {
+		"effect": "Add 400% to Blue Specter DPS while Spectral Repossession is active",
+		"recipe": ["Power Axe", "Ectoplasm Prism", "Specter's Amethyst"],
+		"time": "24h"
+	},
+	"Squid Stone": {
+		"effect": "Add 5000% skull's value while Pastafury is active",
+		"recipe": ["Ectoplasm Prism", "Death Mug", "Squid's Teddy Bear"],
+		"time": "24h"
+	},
+	"Stone Tablet": {
+		"effect": "Add 1%/1.5%/3% to total DPS per white orb",
+		"recipe": ["Death Chalice", "Death Chalice", "Magic Ring"],
+		"time": "1h"
+	},
+	"Death Chalice": {
+		"effect": "Add 5%/10%/20% skull's value",
+		"recipe": ["Power Axe", "Power Potion", "Plague in a Bottle"],
+		"time": "1h"
+	},
+	"Magic Ring": {
+		"effect": "Add 2/4/8 seconds to boss battle",
+		"recipe": ["Necro Sword", "Necro Sword", "Necro Sword"],
+		"time": "1h"
+	},
+	"Power Potion": {
+		"effect": "Add 20%/30%/50% to all DPS when Bob sleeps",
+		"recipe": ["Power Axe", "Power Axe", "Power Axe"],
+		"time": "1h"
+	},
+	"Easter Voodoo Doll": {
+		"effect": "Add 20% to orbs drop",
+		"recipe": ["Bully Bunny's Head", "Bully Bunny's Carrot", "Bully Bunny's Foot"],
+		"time": "1h"
+	},
+	"The Potato Man": {
+		"effect": "Add 20% to orbs drop",
+		"recipe": ["A Witch's Shoes", "A Haunted Potato", "An Evil Candle"],
+		"time": "1h"
+	},
+	"The Potato Lady": {
+		"effect": "Add 15 orbs to orb drops",
+		"recipe": ["Another Witch's Shoes", "A sexy Potato", "Evil Lipstick"],
+		"time": "1h"
+	},
+	"Magic Potato Baby": {
+		"effect": "Add 30 orbs to every boss",
+		"recipe": ["The Potato Man", "The Potato Lady", "Magic Ring"],
+		"time": "1h"
+	},
+	"Xmas Monster Head": {
+		"effect": "Add 30 orbs to orb drops",
+		"recipe": ["Evil Candy Cane", "Snowball of Doom", "Xmas Eye"],
+		"time": "1h"
+	},
+	"Xmas Potion": {
+		"effect": "Add 20% to orbs drop",
+		"recipe": ["Xmas Berries", "Lemon Flavoured Magic Snow", "Xmas Bottle"],
+		"time": "1h"
+	},
+	"Xmas Warhammer": {
+		"effect": "Multiplies your DPS by 4. Stacks multiplicatively",
+		"recipe": ["Xmas Coal", "Xmas Bow", "Xmas Metal Bar"],
+		"time": "1h"
+	},
+	"Fused Alchemical Lollipop": {
+		"effect": "Add 20% of white orbs drop",
+		"recipe": ["Juicy Blue Lollipop", "Juicy Purple Lollipop", "Juicy Yellow Lollipop"],
+		"time": "1h"
+	},
+	"Fused Enchanted Taffy": {
+		"effect": "Add 20% of white orbs drop",
+		"recipe": ["Juicy Blue Candy", "Juicy Green Candy", "Juicy Pink Candy"],
+		"time": "1h"
+	},
+	"Ultimate Badge": {
+		"effect": "White orb drops x2",
+		"recipe": ["Steam Badge", "Web Badge", "Mobile Badge"],
+		"time": "1h"
+	},
+	"Rubbish": {
+		"effect": "Why would you want this? Perhaps you need help",
+		"recipe": ["Three mismatched items"],
+		"time": "1m"
+	},
+	"Rubbish Pile": {
+		"effect": "A pile of rubbish. What did you hope to accomplish?",
+		"recipe": ["Rubbish", "Rubbish", "Rubbish"],
+		"time": "1h"
+	},
+	"Rubbish Heap": {
+		"effect": "It's a heap now. Good job",
+		"recipe": ["Rubbish Pile", "Rubbish Pile", "Rubbish Pile"],
+		"time": "1h"
+	},
+	"Rubbish Dump": {
+		"effect": "Stop making rubbish",
+		"recipe": ["Rubbish Heap", "Rubbish Heap", "Rubbish Heap"],
+		"time": "1h"
+	},
+	"Villager Ghost": {
+		"effect": "A spooky ghost",
+		"recipe": ["Acquired by clicking villagers"],
+		"time": " - "
+	},
+	"Ectoplasm": {
+		"effect": "Concentrated Souls",
+		"recipe": ["Villager Ghost", "Villager Ghost", "Villager Ghost"],
+		"time": "1h"
+	},
+	"Ectoplasm Ball": {
+		"effect": "Super concentrated ectoplasm",
+		"recipe": ["Ectoplasm", "Ectoplasm", "Ectoplasm"],
+		"time": "1h"
+	},
+	"Ectoplasm Cube": {
+		"effect": "Compressed souls. Easy to stack",
+		"recipe": ["Ectoplasm Ball", "Ectoplasm Ball", "Ectoplasm Ball"],
+		"time": "1h"
+	},
+	"Ectoplasm Prism": {
+		"effect": "Dark side of the ectoplasm",
+		"recipe": ["Ectoplasm Cube", "Ectoplasm Cube", "Ectoplasm Cube"],
+		"time": "1h"
+	}
+}
