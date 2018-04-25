@@ -1,5 +1,4 @@
 const recipes = require("../Arcane/craftArcane.json");
-console.log(recipes);
 module.exports.find = (name) => {
 	try{
 	let theOne;
